@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--mybatis主配置文件,原本需要配置数据源;与spring整合后,这个事情交给spring做-->
+
+    <!--配置别名-->
+    <typeAliases>
+        <package name="com.sc.entity"/>
+    </typeAliases>
+
+    <mappers>
+        <mapper resource="mapper/BookMapper.xml"/>
+    </mappers>
+</configuration>
