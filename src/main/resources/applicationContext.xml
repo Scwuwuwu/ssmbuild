@@ -6,6 +6,4 @@
 
     <import resource="classpath:spring-dao.xml"/>
     <import resource="classpath:spring-service.xml"/>
-
-
 </beans>
