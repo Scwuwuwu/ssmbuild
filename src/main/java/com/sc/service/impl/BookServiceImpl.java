@@ -3,17 +3,15 @@ package com.sc.service.impl;
 import com.sc.entity.Books;
 import com.sc.mapper.BookMapper;
 import com.sc.service.BookService;
+import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
+@Setter
 public class BookServiceImpl implements BookService {
     // service调dao层,组合Dao
     private BookMapper bookMapper;
-
-    public void setBookMapper(BookMapper bookMapper) {
-        this.bookMapper = bookMapper;
-    }
 
     @Override
     public int addBook(Books book) {

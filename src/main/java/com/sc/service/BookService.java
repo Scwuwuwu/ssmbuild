@@ -1,9 +1,6 @@
 package com.sc.service;
 
 import com.sc.entity.Books;
-import com.sc.mapper.BookMapper;
-import org.springframework.beans.factory.annotation.Autowired;
-
 import java.util.List;
 
 public interface BookService {

@@ -43,4 +43,5 @@
         <!--要扫描的dao包-->
         <property name="basePackage" value="com.sc.mapper"/>
     </bean>
+
 </beans>
